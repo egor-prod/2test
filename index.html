@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ВАЖНО — кинокомпания, которая слышит истории</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress-bar" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <div class="nav-container">
+      <a class="logo" href="#hero" aria-label="Кинокомпания ВАЖНО">
+        <img src="img/logo-vazhno.png" alt="Логотип ВАЖНО">
+      </a>
+      <nav class="main-nav" aria-label="Главное меню">
+        <ul>
+          <li><a href="#works">Работы</a></li>
+          <li><a href="#talents">Таланты</a></li>
+          <li><a href="#manifesto">О нас</a></li>
+          <li><a href="#clients">Клиенты</a></li>
+          <li><a href="#contacts" class="cta">Контакты</a></li>
+        </ul>
+      </nav>
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" aria-hidden="true">
+      <ul>
+        <li><a href="#works">Работы</a></li>
+        <li><a href="#talents">Таланты</a></li>
+        <li><a href="#manifesto">О нас</a></li>
+        <li><a href="#clients">Клиенты</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="section hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="hero-logo" data-parallax>
+          <img src="img/logo-vazhno.png" alt="ВАЖНО">
+        </div>
+        <div class="hero-text" data-parallax>
+          <p class="eyebrow">Кинокомпания</p>
+          <h1>ВАЖНО</h1>
+          <p class="subtitle">Мы создаём киноповествование, которое усиливает бренды и авторов — с уважением к истории и зрителю.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#showreel">Смотреть шоурил</a>
+            <a class="btn ghost" href="#works">Наши работы</a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true">
+        <span class="hint-circle"></span>
+        <span>Листай вниз</span>
+      </div>
+    </section>
+
+    <section id="manifesto" class="section manifesto fade-in">
+      <div class="container grid manifesto-grid">
+        <div class="manifesto-accent">
+          <span class="label">От идеи до кадра</span>
+          <ul>
+            <li>Исследуем контекст</li>
+            <li>Собираем команду под задачу</li>
+            <li>Берегём драматургию</li>
+            <li>Работаем прозрачно</li>
+          </ul>
+        </div>
+        <div class="manifesto-text">
+          <h2>Мы слушаем историю, прежде чем включить камеры</h2>
+          <p>«ВАЖНО» — студия авторского продакшена, которая помогает брендам говорить человеческим языком. Мы начинаем с вопросов, исследуем аудиторию, создаём сценарии, где эмоция важнее формальных KPI.</p>
+          <p>Каждый кадр — повод добавить смысла. Мы соединяем документальную честность, рекламную динамику и визуальную смелость. Любим работать с сильными режиссёрами и ставить их авторский почерк в центр проекта.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="showreel" class="section showreel fade-in">
+      <div class="container showreel-grid">
+        <div class="showreel-text">
+          <p class="eyebrow">Showreel 2025</p>
+          <h2>Шоурил кинокомпании «ВАЖНО»</h2>
+          <p>9 проектов, которые рассказывают о смелости, тепле и драйве. Снято для брендов, артистов и социальных инициатив.</p>
+          <button class="btn primary open-showreel">Смотреть</button>
+        </div>
+        <div class="showreel-player" role="button" aria-label="Открыть шоурил">
+          <div class="player-poster">
+            <div class="play-icon">▶</div>
+            <div class="poster-overlay">Показать видео</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="section works fade-in">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Портфолио</p>
+            <h2>Работы</h2>
+            <p class="section-subtitle">Коммерческие кампании, музыкальные клипы, бренд-фильмы и документальные истории, созданные с продюсерской точностью и авторским взглядом.</p>
+          </div>
+          <div class="filters" role="group" aria-label="Фильтр работ">
+            <button class="filter-btn active" data-filter="all">Все</button>
+            <button class="filter-btn" data-filter="ad">Реклама</button>
+            <button class="filter-btn" data-filter="music">Клипы</button>
+            <button class="filter-btn" data-filter="brand">Бренд-фильмы</button>
+            <button class="filter-btn" data-filter="doc">Документальное</button>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button class="slider-btn prev" aria-label="Предыдущие работы">←</button>
+          <button class="slider-btn next" aria-label="Следующие работы">→</button>
+        </div>
+        <div class="works-slider" aria-live="polite">
+          <article class="work-card" data-category="ad" data-title="Ритм города" data-description="Манифест об энергии мегаполиса для бренда умной техники." data-video="https://player.vimeo.com/video/76979871" data-credits="Клиент: Volt, Режиссёр: Алина Громова, Оператор: Марк Титов, Продюсер: Важные Люди">
+            <div class="work-visual gradient-1"></div>
+            <div class="work-content">
+              <span class="badge">Реклама</span>
+              <h3>Ритм города</h3>
+              <p>Уличная хореография и нейросеть света в одном кадре.</p>
+            </div>
+          </article>
+          <article class="work-card" data-category="music" data-title="Клип «Маяк»" data-description="История о поиске себя, снятая на побережье Балтики." data-video="https://player.vimeo.com/video/29844616" data-credits="Артист: LOФТ, Режиссёр: Кирилл Костров, Оператор: Оля Холод, Продюсер: ВАЖНО">
+            <div class="work-visual gradient-2"></div>
+            <div class="work-content">
+              <span class="badge">Клип</span>
+              <h3>Клип «Маяк»</h3>
+              <p>Свет, туман и импровизация камерного трио.</p>
+            </div>
+          </article>
+          <article class="work-card" data-category="brand" data-title="Вкус тишины" data-description="Бренд-фильм о ремесленных сырах и людях, которые их создают." data-video="https://player.vimeo.com/video/137857207" data-credits="Бренд: Сыроварня 12, Режиссёр: Мария Друк, Оператор: Виталий Шум, Локация: Карелия">
+            <div class="work-visual gradient-3"></div>
+            <div class="work-content">
+              <span class="badge">Бренд-фильм</span>
+              <h3>Вкус тишины</h3>
+              <p>Северное солнце, тишина фермы и ручная работа без слов.</p>
+            </div>
+          </article>
+          <article class="work-card" data-category="doc" data-title="До рассвета" data-description="Документальная короткометражка о ночных волонтёрах." data-video="https://player.vimeo.com/video/1084537" data-credits="Автор: Ярослав Обрезков, Продюсер: ВАЖНО, Музыка: Павел Маяк">
+            <div class="work-visual gradient-4"></div>
+            <div class="work-content">
+              <span class="badge">Документальное</span>
+              <h3>До рассвета</h3>
+              <p>Тихий героизм и свет фар в самых пустых улицах.</p>
+            </div>
+          </article>
+          <article class="work-card" data-category="ad" data-title="Новые привычки" data-description="Кампания о полезных ритуалах утренней рутины." data-video="https://player.vimeo.com/video/90509568" data-credits="Клиент: Natura, Режиссёр: Егор Лин, Художник: Вера Крымская">
+            <div class="work-visual gradient-5"></div>
+            <div class="work-content">
+              <span class="badge">Реклама</span>
+              <h3>Новые привычки</h3>
+              <p>Съёмка в одном кадре и пластичный свет рассвета.</p>
+            </div>
+          </article>
+          <article class="work-card" data-category="music" data-title="Сон в цвете" data-description="Экспериментальный клип с оптическими иллюзиями." data-video="https://player.vimeo.com/video/9051973" data-credits="Артист: Mira, Режиссёр: Ася Ветрова, Оператор: Digital Lens Lab">
+            <div class="work-visual gradient-6"></div>
+            <div class="work-content">
+              <span class="badge">Клип</span>
+              <h3>Сон в цвете</h3>
+              <p>Неоновые коридоры и танец камеры в 360°.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="formats" class="section formats fade-in">
+      <div class="container formats-grid">
+        <div>
+          <p class="eyebrow">Форматы</p>
+          <h2>Форматы, с которыми мы работаем</h2>
+          <p class="section-subtitle">Выбираем форму под смысл, настраиваем команду под задачу, предлагаем режиссёров с релевантным почерком.</p>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Форматы">
+          <button role="tab" aria-selected="true" class="tab-btn active" data-tab="ad">Реклама</button>
+          <button role="tab" aria-selected="false" class="tab-btn" data-tab="music">Клипы</button>
+          <button role="tab" aria-selected="false" class="tab-btn" data-tab="brand">Бренд-фильмы</button>
+          <button role="tab" aria-selected="false" class="tab-btn" data-tab="doc">Документальное</button>
+          <button role="tab" aria-selected="false" class="tab-btn" data-tab="digital">Digital-серии</button>
+        </div>
+        <div class="tab-panels">
+          <div class="tab-panel active" data-tab="ad">
+            <h3>Реклама</h3>
+            <p>Мы придаем коммерческим задачам узнаваемый визуальный язык и держим производство под контролем. Гибко подключаем CG, арендные решения и кастинг из разных городов.</p>
+            <ul>
+              <li>Разработка сценария и раскадровок</li>
+              <li>Тестовые съёмки и быстрые превизы</li>
+              <li>Съёмка 4K/8K, звук на площадке</li>
+              <li>Постпродакшн, саунд-дизайн, субтитры</li>
+            </ul>
+            <p class="mini-case">Кейс: «Ритм города» — динамичная кампания для умной техники Volt.</p>
+          </div>
+          <div class="tab-panel" data-tab="music">
+            <h3>Клипы</h3>
+            <p>Работаем с артистами, которым нужен характер и смелая форма. Любим снимать ночью, в сложных декорациях и в тесном взаимодействии с хореографами.</p>
+            <ul>
+              <li>Постановка и пластика под трек</li>
+              <li>Работа с цветом и аналоговой оптикой</li>
+              <li>Гибридные форматы — концерт + нарратив</li>
+            </ul>
+            <p class="mini-case">Кейс: «Сон в цвете» — оптические иллюзии и неоновые тоннели для Mira.</p>
+          </div>
+          <div class="tab-panel" data-tab="brand">
+            <h3>Бренд-фильмы</h3>
+            <p>Помогаем компаниям говорить не рекламой, а кино. Собираем документальных операторов, ищем реальные истории и создаём деликатный монтаж.</p>
+            <ul>
+              <li>Интервью и сюжетная драматургия</li>
+              <li>Выезды в регионы и малые города</li>
+              <li>Оригинальная музыка, саундтрек под бренд</li>
+            </ul>
+            <p class="mini-case">Кейс: «Вкус тишины» — северный фильм о ремесленной сыроварне.</p>
+          </div>
+          <div class="tab-panel" data-tab="doc">
+            <h3>Документальное</h3>
+            <p>Снимаем истории, которые требуют тишины и наблюдения. От социального кино до портретных документальных работ.</p>
+            <ul>
+              <li>Лонгрид-подход к героям</li>
+              <li>Минимальная группа, мобильное оборудование</li>
+              <li>Кинематографичная цветокоррекция</li>
+            </ul>
+            <p class="mini-case">Кейс: «До рассвета» — ночной фильм о волонтёрах.</p>
+          </div>
+          <div class="tab-panel" data-tab="digital">
+            <h3>Digital-серии</h3>
+            <p>Серии для онлайн-платформ и брендов, которые общаются с аудиторией эпизодами. От коротких вертикальных историй до полноценных веб-доков.</p>
+            <ul>
+              <li>Разработка формата и драматургии сезона</li>
+              <li>Эксперименты с вертикальным кадром</li>
+              <li>Гибрид документалки и сторителлинга инфлюенсеров</li>
+            </ul>
+            <p class="mini-case">Кейс: «Город близко» — серия коротких портретов о локальных героях.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="talents" class="section talents fade-in">
+      <div class="container">
+        <p class="eyebrow">Люди</p>
+        <h2>Режиссёры кинокомпании «ВАЖНО»</h2>
+        <p class="section-subtitle">Каждый режиссёр — свой темп, свой взгляд и собственная визуальная математика. Мы соединяем их с задачами брендов и авторов.</p>
+        <div class="talent-grid">
+          <article class="talent-card" data-name="Алина Громова" data-role="Режиссёр, визуальные манифесты" data-bio="Работает с гибридом танца и документальных наблюдений. Училась в Париже, любит снимать в переходных состояниях света." data-projects="Ритм города;Новые привычки" data-mail="talent@vazhno.pro">
+            <div class="avatar">АГ</div>
+            <div class="talent-info">
+              <h3>Алина Громова</h3>
+              <p>Спортивный драйв, хореография, камерный психологизм.</p>
+            </div>
+          </article>
+          <article class="talent-card" data-name="Кирилл Костров" data-role="Режиссёр, музыкальные истории" data-bio="Снимает клипы с длинными кадрами и эмпатичным взглядом. Работал с независимыми артистами и театральными труппами." data-projects="Клип «Маяк»;Город близко" data-mail="talent@vazhno.pro">
+            <div class="avatar">КК</div>
+            <div class="talent-info">
+              <h3>Кирилл Костров</h3>
+              <p>Музыкальные истории с живой камерой и точной работой с актёрами.</p>
+            </div>
+          </article>
+          <article class="talent-card" data-name="Мария Друк" data-role="Режиссёр, документальные фильмы" data-bio="Фокусируется на северных историях и тонкой работе с героями. Любит долгие наблюдения и естественный свет." data-projects="Вкус тишины;До рассвета" data-mail="talent@vazhno.pro">
+            <div class="avatar">МД</div>
+            <div class="talent-info">
+              <h3>Мария Друк</h3>
+              <p>Документальная оптика и доверие героев к камере.</p>
+            </div>
+          </article>
+          <article class="talent-card" data-name="Егор Лин" data-role="Режиссёр, рекламные кампании" data-bio="Строит выразительные кадры с минималистичными декорациями. Отвечает за ритм монтажа и точность кастинга." data-projects="Новые привычки;Ритм города" data-mail="talent@vazhno.pro">
+            <div class="avatar">ЕЛ</div>
+            <div class="talent-info">
+              <h3>Егор Лин</h3>
+              <p>Чистая геометрия кадра и внимательное чувство времени.</p>
+            </div>
+          </article>
+          <article class="talent-card" data-name="Ася Ветрова" data-role="Режиссёр, экспериментальные формы" data-bio="Комбинирует аналоговые эффекты, проекции и музыку. Делает визуальные опыты и живые перформансы." data-projects="Сон в цвете" data-mail="talent@vazhno.pro">
+            <div class="avatar">АВ</div>
+            <div class="talent-info">
+              <h3>Ася Ветрова</h3>
+              <p>Неон, оптические иллюзии, арт-хэппенинги.</p>
+            </div>
+          </article>
+          <article class="talent-card" data-name="Ярослав Обрезков" data-role="Автор, документальный режиссёр" data-bio="Работает с социальными темами и малозаметными героями. Предпочитает ручную камеру и естественный звук." data-projects="До рассвета;Город близко" data-mail="talent@vazhno.pro">
+            <div class="avatar">ЁО</div>
+            <div class="talent-info">
+              <h3>Ярослав Обрезков</h3>
+              <p>Социальная документалистика и хрупкая тишина кадра.</p>
+            </div>
+          </article>
+          <article class="talent-card" data-name="Вера Крымская" data-role="Художник-постановщик" data-bio="Создаёт предметный мир для рекламы и клипов. Прорабатывает текстуры, цвет, тактильность пространства." data-projects="Новые привычки;Сон в цвете" data-mail="talent@vazhno.pro">
+            <div class="avatar">ВК</div>
+            <div class="talent-info">
+              <h3>Вера Крымская</h3>
+              <p>Материальные декорации и внятный колорит.</p>
+            </div>
+          </article>
+          <article class="talent-card" data-name="Павел Маяк" data-role="Композитор, саунд-дизайнер" data-bio="Собирает фактурные саундтреки, пишет живые амбиентные слои. Любит полевые записи и аналоговые синты." data-projects="До рассвета;Вкус тишины" data-mail="talent@vazhno.pro">
+            <div class="avatar">ПМ</div>
+            <div class="talent-info">
+              <h3>Павел Маяк</h3>
+              <p>Тонкие звуковые детали и эмоция через тембр.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section process fade-in">
+      <div class="container">
+        <p class="eyebrow">Процесс</p>
+        <h2>Как мы работаем</h2>
+        <div class="timeline">
+          <div class="timeline-track"></div>
+          <div class="step-card" data-step="1">
+            <span class="step-number">1</span>
+            <h3>Бриф</h3>
+            <p>Собираем вводные, цели и ограничения. Формируем общее видение.</p>
+          </div>
+          <div class="step-card" data-step="2">
+            <span class="step-number">2</span>
+            <h3>Исследование</h3>
+            <p>Анализируем аудиторию и референсы, ищем форму, которая удивит.</p>
+          </div>
+          <div class="step-card" data-step="3">
+            <span class="step-number">3</span>
+            <h3>Препродакшн</h3>
+            <p>Собираем команду, кастинг, локации, тесты света и движения камеры.</p>
+          </div>
+          <div class="step-card" data-step="4">
+            <span class="step-number">4</span>
+            <h3>Съёмка</h3>
+            <p>Чёткий тайминг, внимание к деталям, безопасность на площадке.</p>
+          </div>
+          <div class="step-card" data-step="5">
+            <span class="step-number">5</span>
+            <h3>Постпродакшн</h3>
+            <p>Монтаж, цвет, звук, графика. Финальные версии для всех площадок.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="section clients fade-in">
+      <div class="container">
+        <p class="eyebrow">Партнёры</p>
+        <h2>С кем мы работаем</h2>
+        <div class="client-grid">
+          <div class="client-card">Nova Fabrica</div>
+          <div class="client-card">Slow Food Lab</div>
+          <div class="client-card">North Beat</div>
+          <div class="client-card">Urban Sense</div>
+          <div class="client-card">Solar Type</div>
+          <div class="client-card">Mira Music</div>
+          <div class="client-card">Volt Tech</div>
+          <div class="client-card">Frame&Co</div>
+          <div class="client-card">Pulse Agency</div>
+          <div class="client-card">Deep Roots</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section contacts fade-in">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow">Контакты</p>
+          <h2>Открыты к брендам, агентствам и авторам</h2>
+          <p class="section-subtitle">Москва, можем собирать команды и работать по всему миру.</p>
+          <ul class="contact-list">
+            <li><span>Адрес</span> 115054, Москва, Дербеневская набережная, 15</li>
+            <li><span>Телефон</span> +7 (495) 203-11-22</li>
+            <li><span>Проекты</span> projects@vazhno.pro</li>
+            <li><span>Режиссёры</span> talent@vazhno.pro</li>
+            <li><span>Общие вопросы</span> hello@vazhno.pro</li>
+          </ul>
+        </div>
+        <div class="contact-form-card">
+          <form id="contact-form" novalidate>
+            <label>Имя
+              <input type="text" name="name" required>
+            </label>
+            <label>E-mail
+              <input type="email" name="email" required>
+            </label>
+            <label>Тип запроса
+              <select name="topic" required>
+                <option value="">Выберите</option>
+                <option>Реклама</option>
+                <option>Клип</option>
+                <option>Авторский проект</option>
+                <option>Другое</option>
+              </select>
+            </label>
+            <label>Сообщение
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" name="consent" required>
+              <span>Я согласен(на) с обработкой данных</span>
+            </label>
+            <button type="submit" class="btn primary">Отправить</button>
+            <p class="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-logo">
+        <img src="img/logo-vazhno.png" alt="ВАЖНО">
+      </div>
+      <div class="footer-info">
+        <p>ВАЖНО © 2025. Сайт создан в рамках исследовательского проекта.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#" aria-label="Vimeo">Vimeo</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Убрали aria-hidden, чтобы не было предупреждения в консоли -->
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-overlay"></div>
+    <div class="modal-content" role="document">
+      <button class="modal-close" aria-label="Закрыть">×</button>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
